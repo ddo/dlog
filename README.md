@@ -145,7 +145,7 @@ Table will show if data is a array of objects
 
 * Customize level.
 * Color Setting.
-* Many Log formats to choose.
+* Log format templates.
 
 ## License
 
