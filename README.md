@@ -86,7 +86,7 @@ log.setSize(19);
 
 ### .setName()
 
-* Default: "Ddo"
+* Default: "DLOG"
 * Set App name, you may have many apps to log.
 
 ```js
