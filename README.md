@@ -107,7 +107,7 @@ log.setName("App Name");
 * Set level to "silent" to stop all log. (good for production)
 
 ```js
-log.setName("silent");
+log.setLevel("silent");
 ```
 ## Examples
 
