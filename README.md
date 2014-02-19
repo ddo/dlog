@@ -42,7 +42,7 @@ var log = new dlog();
 ```js
 var log = new dlog({
 	name: "App Name",
-	size: 20 //font size
+	size: 20, //font size
 	level: "info"
 });
 ```
@@ -87,7 +87,7 @@ log.setSize(19);
 ### .setName()
 
 * Default: "Ddo"
-* Set App name, you may have many app to log.
+* Set App name, you may have many apps to log.
 
 ```js
 log.setName("App Name");
