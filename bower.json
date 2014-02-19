@@ -1,9 +1,19 @@
 {
   "name": "dlog",
-  "version": "0.0.1",
   "main": "dlog.min.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ddo/dlog",
+  "authors": [
+    "Ddo <ddo.me>"
+  ],
+  "description": "a Simple & Beautiful Logging for Browser",
+  "keywords": [
+    "log"
+  ],
+  "license": "MIT",
   "ignore": [
-    "./test.js",
-    "./readme_img/"
+    "**/.*",
+    "test.js",
+    "readme_img"
   ]
 }
