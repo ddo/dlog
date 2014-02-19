@@ -16,7 +16,7 @@ a Simple &amp; Beautiful Logging for Browser
 
 ## Installation
 
-Download dlog.js [here](https://github.com/ddo/dlog/blob/v0.0.1/dlog.min.js)
+Download dlog.js [here](https://raw2.github.com/ddo/dlog/v0.0.1/dlog.min.js)
 
     <script src="oauth-1.0a.js"></script>
     
