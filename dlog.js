@@ -1,5 +1,5 @@
-// dlog.js 0.0.1
-// https://github.com/ddo/dlog
+// dlog 0.0.1
+// http://ddo.github.io/dlog
 // (c) 2014 Ddo <http://ddo.me>
 
 (function() {
