@@ -18,7 +18,7 @@ a Simple &amp; Beautiful Logging for Browser
 
 Download dlog.js [here](https://raw2.github.com/ddo/dlog/v0.0.1/dlog.min.js)
 
-    <script src="oauth-1.0a.js"></script>
+    <script src="dlog.min.js"></script>
     
 ### Init
 
