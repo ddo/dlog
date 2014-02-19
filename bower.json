@@ -1,0 +1,9 @@
+{
+  "name": "dlog",
+  "version": "0.0.1",
+  "main": "dlog.min.js",
+  "ignore": [
+    "./test.js",
+    "./readme_img/"
+  ]
+}
