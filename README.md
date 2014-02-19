@@ -150,3 +150,7 @@ Table will show if data is a array of objects
 ## License
 
 MIT © [Ddo](http://ddo.me)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ddo/dlog/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
