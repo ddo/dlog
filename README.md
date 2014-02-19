@@ -3,7 +3,7 @@ dlog
 
 a Simple &amp; Beautiful Logging for Browser
 
-![](readme_img/feature.png)
+![](https://raw2.github.com/ddo/dlog/master/readme_img/feature.png)
 
 ## Features
 
@@ -113,23 +113,23 @@ log.setLevel("silent");
 
 ### log.trace
 
-![](readme_img/trace.png)
+![](https://raw2.github.com/ddo/dlog/master/readme_img/trace.png)
 
 ### log.debug
 
-![](readme_img/debug.png)
+![](https://raw2.github.com/ddo/dlog/master/readme_img/debug.png)
 
 ### log.info
 
-![](readme_img/info.png)
+![](https://raw2.github.com/ddo/dlog/master/readme_img/info.png)
 
 ### log.warn
 
-![](readme_img/warn.png)
+![](https://raw2.github.com/ddo/dlog/master/readme_img/warn.png)
 
 ### log.error
 
-![](readme_img/error.png)
+![](https://raw2.github.com/ddo/dlog/master/readme_img/error.png)
 
 ### log.silent
 
@@ -139,7 +139,7 @@ Nothing !!!
 
 Table will show if data is a array of objects
 
-![](readme_img/table.png)
+![](https://raw2.github.com/ddo/dlog/master/readme_img/table.png)
 
 ### Todo
 
