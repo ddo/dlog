@@ -135,6 +135,12 @@ Table will show if data is a array of objects
 
 ![](readme_img/table.png)
 
+### Todo
+
+* Customize level.
+* Color Setting.
+* Many Log formats to choose.
+
 ## License
 
 MIT © [Ddo](http://ddo.me)
