@@ -42,7 +42,7 @@
         info:   3,
         warn:   4,
         error:  5,
-        silent: 6,
+        silent: 6
     };
 
     dlog.prototype.color_map = {
