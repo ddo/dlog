@@ -3,96 +3,212 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
     <title>Dlog by ddo</title>
   </head>
 
   <body>
-    <a id="forkme_banner" href="https://github.com/ddo/dlog">View on GitHub</a>
-    <div class="shell">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Dlog</h1>
-            <h2>a Simple &amp; Beautiful Logging for Browser</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+    <header>
+      <div class="container">
+        <h1>Dlog</h1>
+        <h2>a Simple &amp; Beautiful Logging for Browser</h2>
 
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/ddo/dlog/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/ddo/dlog/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
+        <section id="downloads">
+          <a href="https://github.com/ddo/dlog/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/ddo/dlog/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/ddo/dlog" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
-
-      <span class="banner-fix"></span>
-
-
+    <div class="container">
       <section id="main_content">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <h1>
+<a name="dlog" class="anchor" href="#dlog"><span class="octicon octicon-link"></span></a>dlog</h1>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>a Simple &amp; Beautiful Logging for Browser</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<p><img src="https://raw2.github.com/ddo/dlog/master/readme_img/feature.png" alt=""></p>
+
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li>Colorful.</li>
+<li>Font size customize.</li>
+<li>Timestamp.</li>
+<li>Log levels: trace, debug, info, warn, error.</li>
+<li>Silent mode. (for production)</li>
+<li>Limit logs by level.</li>
+</ul><h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<h3>
+<a name="bower" class="anchor" href="#bower"><span class="octicon octicon-link"></span></a>Bower</h3>
+
+<pre><code>bower install dlog
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h3>
+<a name="manual" class="anchor" href="#manual"><span class="octicon octicon-link"></span></a>Manual</h3>
+
+<p>Download dlog.js <a href="https://raw2.github.com/ddo/dlog/v0.0.1/dlog.min.js">here</a></p>
+
+<pre><code>&lt;script src="dlog.min.js"&gt;&lt;/script&gt;
+</code></pre>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="init" class="anchor" href="#init"><span class="octicon octicon-link"></span></a>Init</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<div class="highlight highlight-js"><pre><span class="kd">var</span> <span class="nx">log</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">dlog</span><span class="p">();</span>
+</pre></div>
+
+<h2>
+<a name="levels-in-order" class="anchor" href="#levels-in-order"><span class="octicon octicon-link"></span></a>Levels (in order)</h2>
+
+<ul>
+<li>trace</li>
+<li>debug</li>
+<li>info</li>
+<li>warn</li>
+<li>error</li>
+<li>silent</li>
+</ul><h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
 
 <h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<a name="init-1" class="anchor" href="#init-1"><span class="octicon octicon-link"></span></a>init</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<div class="highlight highlight-js"><pre><span class="kd">var</span> <span class="nx">log</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">dlog</span><span class="p">({</span>
+    <span class="nx">name</span><span class="o">:</span> <span class="s2">"App Name"</span><span class="p">,</span>
+    <span class="nx">size</span><span class="o">:</span> <span class="mi">20</span><span class="p">,</span> <span class="c1">//font size</span>
+    <span class="nx">level</span><span class="o">:</span> <span class="s2">"info"</span>
+<span class="p">});</span>
+</pre></div>
 
 <h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<a name="loglevel-data" class="anchor" href="#loglevel-data"><span class="octicon octicon-link"></span></a>.log(level, data)</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<div class="highlight highlight-js"><pre><span class="nx">log</span><span class="p">(</span><span class="s1">'info'</span><span class="p">,</span> <span class="nx">data</span><span class="p">);</span>
+</pre></div>
+
+<div class="highlight highlight-js"><pre><span class="nx">log</span><span class="p">(</span><span class="s1">'debug'</span><span class="p">,</span> <span class="nx">data</span><span class="p">]);</span>
+</pre></div>
+
+<p>...</p>
 
 <h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a name="leveldata" class="anchor" href="#leveldata"><span class="octicon octicon-link"></span></a>.{level}(data)</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<div class="highlight highlight-js"><pre><span class="nx">log</span><span class="p">.</span><span class="nx">trace</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+</pre></div>
+
+<div class="highlight highlight-js"><pre><span class="nx">log</span><span class="p">.</span><span class="nx">warn</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+</pre></div>
+
+<div class="highlight highlight-js"><pre><span class="nx">log</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+</pre></div>
+
+<p>...</p>
+
+<h3>
+<a name="setsize" class="anchor" href="#setsize"><span class="octicon octicon-link"></span></a>.setSize()</h3>
+
+<ul>
+<li>Default: 14px</li>
+<li>Set font size</li>
+</ul><div class="highlight highlight-js"><pre><span class="nx">log</span><span class="p">.</span><span class="nx">setSize</span><span class="p">(</span><span class="mi">19</span><span class="p">);</span>
+</pre></div>
+
+<h3>
+<a name="setname" class="anchor" href="#setname"><span class="octicon octicon-link"></span></a>.setName()</h3>
+
+<ul>
+<li>Default: "DLOG"</li>
+<li>Set App name, you may have many apps to log.</li>
+</ul><div class="highlight highlight-js"><pre><span class="nx">log</span><span class="p">.</span><span class="nx">setName</span><span class="p">(</span><span class="s2">"App Name"</span><span class="p">);</span>
+</pre></div>
+
+<h3>
+<a name="setlevel" class="anchor" href="#setlevel"><span class="octicon octicon-link"></span></a>.setLevel()</h3>
+
+<ul>
+<li>Default: "info"</li>
+<li>Set app logging level to limit the logs base on level in console.</li>
+<li>For example, if app level is "info" then all the "trace" and "debug" level logs will not show.</li>
+<li>Set level to "silent" to stop all log. (good for production)</li>
+</ul><div class="highlight highlight-js"><pre><span class="nx">log</span><span class="p">.</span><span class="nx">setLevel</span><span class="p">(</span><span class="s2">"silent"</span><span class="p">);</span>
+</pre></div>
+
+<h2>
+<a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples</h2>
+
+<h3>
+<a name="logtrace" class="anchor" href="#logtrace"><span class="octicon octicon-link"></span></a>log.trace</h3>
+
+<p><img src="https://raw2.github.com/ddo/dlog/master/readme_img/trace.png" alt=""></p>
+
+<h3>
+<a name="logdebug" class="anchor" href="#logdebug"><span class="octicon octicon-link"></span></a>log.debug</h3>
+
+<p><img src="https://raw2.github.com/ddo/dlog/master/readme_img/debug.png" alt=""></p>
+
+<h3>
+<a name="loginfo" class="anchor" href="#loginfo"><span class="octicon octicon-link"></span></a>log.info</h3>
+
+<p><img src="https://raw2.github.com/ddo/dlog/master/readme_img/info.png" alt=""></p>
+
+<h3>
+<a name="logwarn" class="anchor" href="#logwarn"><span class="octicon octicon-link"></span></a>log.warn</h3>
+
+<p><img src="https://raw2.github.com/ddo/dlog/master/readme_img/warn.png" alt=""></p>
+
+<h3>
+<a name="logerror" class="anchor" href="#logerror"><span class="octicon octicon-link"></span></a>log.error</h3>
+
+<p><img src="https://raw2.github.com/ddo/dlog/master/readme_img/error.png" alt=""></p>
+
+<h3>
+<a name="logsilent" class="anchor" href="#logsilent"><span class="octicon octicon-link"></span></a>log.silent</h3>
+
+<p>Nothing !!!</p>
+
+<h3>
+<a name="table" class="anchor" href="#table"><span class="octicon octicon-link"></span></a>Table</h3>
+
+<p>Table will show if data is a array of objects</p>
+
+<p><img src="https://raw2.github.com/ddo/dlog/master/readme_img/table.png" alt=""></p>
+
+<h3>
+<a name="todo" class="anchor" href="#todo"><span class="octicon octicon-link"></span></a>Todo</h3>
+
+<ul>
+<li>Customize level.</li>
+<li>Color Setting.</li>
+<li>Log format templates.</li>
+</ul><h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>MIT © <a href="http://ddo.me">Ddo</a></p>
       </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/ddo">ddo</a> can be found on <a href="https://github.com/ddo/dlog">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="http://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
-
     </div>
 
-    
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-24951846-10");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
   </body>
 </html>
