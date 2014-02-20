@@ -7,6 +7,7 @@ a Simple &amp; Beautiful Logging for Browser
 
 ## Features
 
+* Super Lightweight (1.489 kb)
 * Colorful.
 * Font size customize.
 * Timestamp.
@@ -56,11 +57,11 @@ var log = new dlog({
 ### .log(level, data)
 
 ```js
-log('info', data);
+log.log('info', data);
 ```
 
 ```js
-log('debug', data]);
+log.log('debug', data]);
 ```
 
 ...
