@@ -10,7 +10,7 @@
     function dlog(opts) {
         opts = opts ? opts : {};
 
-        //default name = Ddo
+        //default name = DLOG
         this.setName(opts.name);
 
         //default level = info
