@@ -103,8 +103,8 @@ log.setName("App Name");
 ### .setLevel()
 
 * Default: "info"
-* Set app logging level to limit the logs base on level in console.
-* For example, if app level is "info" then all the "trace" and "debug" level logs will not show.
+* Set logging level to limit the showing log.
+* For example, if logging level is "info" then all the "trace" and "debug" level logs will not be showed.
 * Set level to "silent" to stop all log. (good for production)
 
 ```js
