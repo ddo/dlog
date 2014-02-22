@@ -7,7 +7,7 @@ a Simple &amp; Beautiful Logging for Browser
 
 ## Features
 
-* Super Lightweight (1.489 kb)
+* Super Lightweight (<2kb)
 * Colorful.
 * Font size customize.
 * Timestamp.
