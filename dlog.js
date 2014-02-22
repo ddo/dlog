@@ -1,12 +1,8 @@
-// dlog 0.0.1
+// dlog 0.1.0
 // http://ddo.github.io/dlog
 // (c) 2014 Ddo <http://ddo.me>
 
 (function() {
-    var root = this;
-
-    root.dlog = dlog;
-
     function dlog(opts) {
         opts = opts ? opts : {};
 
@@ -105,4 +101,10 @@
     dlog.prototype.error = function() {
         this.log('error', arguments);
     };
+
+    if (typeof module !== 'undefined' && module.exports) {
+        module.exports = dlog;
+    } else {
+        window.dlog = dlog;
+    }
 })();
