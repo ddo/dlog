@@ -17,16 +17,20 @@ a Simple &amp; Beautiful Logging for Browser
 
 ## Installation
 
-### Bower
-
-    bower install dlog
-
 ### Manual
 
 Download dlog.js [here](https://raw2.github.com/ddo/dlog/0.1.0/dlog.min.js)
 
     <script src="dlog.min.js"></script>
     
+### Bower
+
+    bower install dlog
+    
+### Component
+
+    component install ddo/dlog
+
 ### Init
 
 ```js
