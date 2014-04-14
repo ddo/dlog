@@ -1,3 +1,7 @@
+if(typeof require === 'function') {
+    dlog = require('dlog');
+}
+
 log = dlog({name: 'Ddo', level: 'trace'});
 
 var str = 'lorem ipsum dolor sit amet, consectetuer adipiscing elit';
