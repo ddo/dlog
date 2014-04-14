@@ -2,7 +2,7 @@
   "name": "dlog",
   "repo": "ddo/dlog",
   "description": "a Simple & Beautiful Logging for Browser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "log",
     "logger"

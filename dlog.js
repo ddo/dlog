@@ -1,4 +1,4 @@
-// dlog 0.1.0
+// dlog 0.1.1
 // http://ddo.github.io/dlog
 // (c) 2014 Ddo <http://ddo.me>
 
