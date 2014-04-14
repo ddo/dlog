@@ -1,9 +1,4 @@
-if(require) {
-    dlog = require('dlog');
-}
-
-log = new dlog({name: 'Ddo', level: 'trace'});
-
+log = dlog({name: 'Ddo', level: 'trace'});
 
 var str = 'lorem ipsum dolor sit amet, consectetuer adipiscing elit';
 test(str);
