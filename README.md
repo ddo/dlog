@@ -3,7 +3,7 @@ dlog
 
 a Simple &amp; Beautiful Logging for Browser
 
-![](https://raw2.github.com/ddo/dlog/master/readme_img/feature.png)
+![](https://raw.githubusercontent.com/ddo/dlog/master/readme_img/feature.png)
 
 ## Features
 
