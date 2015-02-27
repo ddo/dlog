@@ -118,23 +118,23 @@ log.setLevel("silent");
 
 ### log.trace
 
-![](https://raw2.github.com/ddo/dlog/master/readme_img/trace.png)
+![](https://raw.githubusercontent.com/ddo/dlog/master/readme_img/trace.png)
 
 ### log.debug
 
-![](https://raw2.github.com/ddo/dlog/master/readme_img/debug.png)
+![](https://raw.githubusercontent.com/ddo/dlog/master/readme_img/debug.png)
 
 ### log.info
 
-![](https://raw2.github.com/ddo/dlog/master/readme_img/info.png)
+![](https://raw.githubusercontent.com/ddo/dlog/master/readme_img/info.png)
 
 ### log.warn
 
-![](https://raw2.github.com/ddo/dlog/master/readme_img/warn.png)
+![](https://raw.githubusercontent.com/ddo/dlog/master/readme_img/warn.png)
 
 ### log.error
 
-![](https://raw2.github.com/ddo/dlog/master/readme_img/error.png)
+![](https://raw.githubusercontent.com/ddo/dlog/master/readme_img/error.png)
 
 ### log.silent
 
@@ -144,7 +144,7 @@ Nothing !!!
 
 Table will show if data is a array of objects
 
-![](https://raw2.github.com/ddo/dlog/master/readme_img/table.png)
+![](https://raw.githubusercontent.com/ddo/dlog/master/readme_img/table.png)
 
 ### Todo
 
@@ -155,7 +155,4 @@ Table will show if data is a array of objects
 ## License
 
 MIT © [Ddo](http://ddo.me)
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ddo/dlog/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
